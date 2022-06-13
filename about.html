@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL-MERAAJ MARKETING</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" type="x-icon" href="./images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="about-header image-header">
+        <nav>
+            <a href="./index.html"><img src="./images/logo.png" width="150px" height="80px" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="menuHide()" ></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./project.html">PROJECTS</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="menuShow()" ></i>
+        </nav>
+       <h1>ABOUT US</h1>
+    </section>
+
+    <!-- ............./////////////////  my about page content //////////////////........ -->
+
+    <section class="my-about">
+        <div class="row">
+            <div class="about-col" data-aos="fade-right"    >
+                <h1>THOUGHTS OF FUTURE. PATH OF AL-MERAAJ</h1>
+                <p>AL-MERAAJ since its inception has forayed into multiple 
+                    verticals of real estate development. Over the period of time, the company
+                     has mastered the art of being a holistically idea driven organisation stretching
+                      its expertise with next level offerings in terms of customer satisfaction, upgradation and quality consistency. Today, the need to develop the infrastructure and urban
+                       lifestyle has sparked movement in many areas like corporate IT parks, entertainment zones and public utility zones. Exceptionally better design and purpose-led planning has become the key in generating a fine experience across 
+                       the strata of development.</p>
+                       <a href="./project.html" class="text-button yellow-btn " >EXPLORE NOW</a>
+            </div>
+            <div class="about-col" data-aos="fade-left"   >
+                <img src="./images/aboutcontent.jpg" >
+            </div>
+        </div>
+
+    </section>
+
+
+<!-- ...............///////////////  my footer   ////////////////............ -->
+
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Al-MERAAJ is not a traditional real estate agency! It is a marketing agency with limitless boundaries <br>  when it comes to marketing service for the real-state industry</p>
+    <div class="myicons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-youtube"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+</div>
+<p>Copyright © 2021-2022 <span class="meirajname" > AL-MEIRAJ MARKETING </span>- All rights reserved.</p>
+
+</section>
+
+<!-- ..............//////////// javascript aos plugin animation///////////////............. -->
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset: 200,
+        duration: 1500,
+        // mirror: false,
+    });
+  </script>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
